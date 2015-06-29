@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFCApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">退出</string>
+    <string name="title_activity_consume">消费管理</string>
+    <string name="title_activity_write_tag">"写入信息"</string>
+    <string name="title_activity_info_ready_to_write">"写入信息"</string>
+    <string name="to_write_notice">将标签放在手机背后等待写入</string>
+    <string name="title_activity_library_manager">图书馆管理</string>
+    <string name="library_text_1">将标签放在手机背后等待验证</string>
+    <string name="title_activity_dorm_manager">宿舍管理</string>
+    <string name="title_activity_saving_manager">存钱管理</string>
+    <string name="title_activity_saving">存钱</string>
+    <string name="title_activity_consume_manager">消费管理</string>
+
+</resources>

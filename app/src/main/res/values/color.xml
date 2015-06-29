@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="MainWindowColor">#FF4814</color>
+    <color name="main_button_pressed">#2068BB</color>
+    <color name="consume_color">#8ADD66</color>
+    <color name="write_tag_color">#8AADAA</color>
+    <color name="library_manager_color">#DAAD55</color>
+    <color name="dorm_manager_color">#008F25</color>
+    <color name="saving_manager_color">#ba89c6</color>
+</resources>

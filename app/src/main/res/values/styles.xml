@@ -1,0 +1,97 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="ConsumeTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/ConsumeTheme.ConsumeActionBar</item>
+        
+    </style>
+
+    <style name="WriteTagTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/WriteTagTheme.WriteActionBar</item>
+    </style>
+
+    <style name="LibraryManagerTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/LibraryManagerTheme.ActionBar</item>
+    </style>
+
+    <style name="DormManagerTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/DormManagerTheme.ActionBar</item>
+    </style>
+
+    <style name="SavingManagerTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/SavingManagerTheme.ActionBar</item>
+    </style>
+
+
+    <!--
+        ActionBar Style ......
+        Of              ......
+        Theme           ......
+    -->
+    <style name="CustomWindowTitleBackground">
+       <item name="android:background">#565656</item>
+	</style>
+    
+    <style name="MyActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/MainWindowColor</item>
+    </style>
+
+
+    <style name="ConsumeTheme.ConsumeActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/consume_color</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:windowTitleSize">20dp</item>
+        <item name="android:titleTextStyle">@style/ConsumeTheme.TitleStyle</item>
+    </style>
+
+    <style name="WriteTagTheme.WriteActionBar" parent="ConsumeTheme.ConsumeActionBar">
+        <item name="android:background">@color/write_tag_color</item>
+    </style>
+
+    <style name="LibraryManagerTheme.ActionBar" parent="ConsumeTheme.ConsumeActionBar">
+        <item name="android:background">@color/library_manager_color</item>
+    </style>
+
+    <style name="DormManagerTheme.ActionBar" parent="ConsumeTheme.ConsumeActionBar">
+        <item name="android:background">@color/dorm_manager_color</item>
+    </style>
+
+    <style name="SavingManagerTheme.ActionBar" parent="ConsumeTheme.ConsumeActionBar">
+        <item name="android:background">@color/saving_manager_color</item>
+    </style>
+
+
+    <!--
+        Other       .....
+        Component   .....
+        Of          .....
+        Theme       .....
+    -->
+
+    <style name="ConsumeTheme.TitleStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    
+
+</resources>
